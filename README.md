@@ -23,6 +23,7 @@ Use at least 5 different HTML elements.
 Ensure semantic correctness.
 
 Good luck and happy coding! 🚀💻
+
 PROJECT DOCUMENTATION
 
 MobiGas Delivery Website
@@ -46,15 +47,22 @@ Folder Structure
 
 │
 ├── index.html
+
 ├── about.html
+
 ├── services.html
+
 ├── contact.html
+
 ├── styles/
 │   ├── main.css
 │   └── home.css
+
 ├── images/
 │   └── (all images used)
+
 ├── script.js
+
 └── README.md
 
 How to Run
