@@ -96,3 +96,5 @@ This project is for educational purposes.
 
 Tip:
 Add more sections (e.g., FAQ, deployment instructions) as your project grows!
+
+LINK OF DEPLOYMENT: https://abby-mochoni.vercel.app/
