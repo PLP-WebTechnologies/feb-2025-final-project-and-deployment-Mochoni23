@@ -1,7 +1,20 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.querySelector('.icon');
+    const navLinks = document.getElementById('nav-links');
+    navToggle.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+        // Optionally toggle icon between bars and close
+        if (navLinks.classList.contains('active')) {
+            navToggle.innerHTML = '<i class="fa fa-times"></i>';
+        } else {
+            navToggle.innerHTML = '<i class="fa fa-bars"></i>';
+        }
+    });
+});
 
- 
 
-    // Add scroll effect to navbar
+
+// Add scroll effect to navbar
     const nav = document.querySelector('nav');
     if (nav) {
         window.addEventListener('scroll', function() {
@@ -14,6 +27,8 @@
             }
         });
     }
+
+
 
 
 // Form Validation
